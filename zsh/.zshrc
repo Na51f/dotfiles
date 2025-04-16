@@ -148,3 +148,7 @@ export LESSHISTFILE="$XDG_STATE_HOME"/less/
 # Cursor and VSCode
 alias c="open $1 -a \"Cursor\""
 alias vs="open $1 -a \"Visual Studio Code\""
+
+# iCloud shortcut
+alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias zreset="source $XDG_CONFIG_HOME/zsh/.zshrc"
