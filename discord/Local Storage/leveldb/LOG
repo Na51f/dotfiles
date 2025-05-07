@@ -1,0 +1,26 @@
+2025/05/06-15:09:49.422 5f95 Reusing MANIFEST /home/sqibo/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/05/06-15:09:49.426 5f95 Recovering log #115
+2025/05/06-15:09:49.426 5f95 Reusing old log /home/sqibo/.config/discord/Local Storage/leveldb/000115.log 
+2025/05/06-15:10:55.042 5f96 Level-0 table #119: started
+2025/05/06-15:10:55.043 5f96 Level-0 table #119: 84807 bytes OK
+2025/05/06-15:10:55.044 5f96 Delete type=0 #115
+2025/05/06-15:31:32.996 5f96 Level-0 table #121: started
+2025/05/06-15:31:33.013 5f96 Level-0 table #121: 3565224 bytes OK
+2025/05/06-15:31:33.014 5f96 Delete type=0 #118
+2025/05/06-17:07:13.673 5f96 Level-0 table #123: started
+2025/05/06-17:07:13.674 5f96 Level-0 table #123: 36965 bytes OK
+2025/05/06-17:07:13.675 5f96 Delete type=0 #120
+2025/05/06-17:07:13.675 5f96 Compacting 4@0 + 2@1 files
+2025/05/06-17:07:13.692 5f96 Generated table #124@0: 10 keys, 2530927 bytes
+2025/05/06-17:07:13.711 5f96 Generated table #125@0: 57 keys, 1094966 bytes
+2025/05/06-17:07:13.711 5f96 Compacted 4@0 + 2@1 files => 3625893 bytes
+2025/05/06-17:07:13.712 5f96 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/05/06-17:07:13.712 5f96 Delete type=2 #121
+2025/05/06-17:07:13.712 5f96 Delete type=2 #114
+2025/05/06-17:07:13.712 5f96 Delete type=2 #113
+2025/05/06-17:07:13.712 5f96 Delete type=2 #123
+2025/05/06-17:07:13.712 5f96 Delete type=2 #116
+2025/05/06-17:07:13.712 5f96 Delete type=2 #119
+2025/05/06-18:45:35.650 5f96 Level-0 table #127: started
+2025/05/06-18:45:35.651 5f96 Level-0 table #127: 61355 bytes OK
+2025/05/06-18:45:35.652 5f96 Delete type=0 #122

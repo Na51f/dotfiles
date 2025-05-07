@@ -1,0 +1,6 @@
+2025/05/01-22:26:47.443 2252 Creating DB /home/sqibo/.config/discord/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
+2025/05/01-22:26:47.445 2252 Reusing MANIFEST /home/sqibo/.config/discord/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/05/01-23:19:17.102 2253 Level-0 table #5: started
+2025/05/01-23:19:17.103 2253 Level-0 table #5: 827 bytes OK
+2025/05/01-23:19:17.104 2253 Delete type=0 #3
+2025/05/01-23:19:17.104 2253 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
