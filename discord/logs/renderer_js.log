@@ -2492,3 +2492,516 @@ Possible causes: the network is offline, Origin is not allowed by Access-Control
 [2025-05-07 13:04:49.395] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key meta: 133 !== 91
 [2025-05-07 13:56:28.033] [info]  [MessageActionCreators] Fetching messages for 927091484375801896 between 1369411451231404042 and undefined. jump=undefined
 [2025-05-07 13:56:28.348] [info]  [MessageActionCreators] Fetched 50 messages for 927091484375801896 isBefore:true isAfter:false
+[2025-05-09 13:18:08.684] [info]  DiscordSplash.signalReady
+[2025-05-09 13:18:08.937] [info]  DiscordSplash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-05-09 13:18:08.937] [info]  Splash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-05-09 13:18:08.942] [info]  DiscordSplash.onStateUpdate: {"status":"launching"}
+[2025-05-09 13:18:08.943] [info]  Splash.onStateUpdate: {"status":"launching"}
+[2025-05-09 13:18:09.356] [info]  [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2025-05-09 13:18:09.472] [info]  [FAST CONNECT] connected in 115ms
+[2025-05-09 13:18:09.683] [info]  Splash.updateCountdownSeconds: undefined
+[2025-05-09 13:18:09.728] [info]  Initializing voice engine with audio subsystem: standard
+[2025-05-09 13:18:09.837] [info]  [default] [BUILD INFO] Release Channel: stable, Build Number: 398278, Version Hash: 43734ebda6066123b2369893438998fed40fc969
+[2025-05-09 13:18:10.018] [info]  [default] [NATIVE INFO] host 0.0.94, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_zstd: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null
+[2025-05-09 13:18:10.581] [error] [Spellchecker] sh is not a valid locale.
+[2025-05-09 13:18:10.620] [info]  [Spellchecker] Switching to en-US (available)
+[2025-05-09 13:18:10.684] [info]  Splash.updateCountdownSeconds: undefined
+[2025-05-09 13:18:10.812] [info]  [libdiscore] The answer for life the universe and everything is: 42
+[2025-05-09 13:18:10.856] [warn]  [CloudSyncUtils] CloudSync is not supported on this platform
+[2025-05-09 13:18:11.028] [info]  [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-09 13:18:11.028] [info]  [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: [object Object]
+[2025-05-09 13:18:11.028] [info]  [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
+[2025-05-09 13:18:11.044] [info]  [RPCServer:WSS] Starting on 6463
+[2025-05-09 13:18:11.066] [info]  [RPCServer:IPC] Starting on /run/user/1000/discord-ipc-0
+[2025-05-09 13:18:12.104] [info]  [GatewaySocket] [READY] took 1077ms, as 7daf8b07cdbb579026f55914b32dd84f
+[2025-05-09 13:18:12.158] [info]  [Flux] Dispatching CONNECTION_OPEN
+[2025-05-09 13:18:12.161] [info]  [DatabaseManager] removing database (user: 262355558185566218, database: undefined)
+[2025-05-09 13:18:12.176] [warn]  [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2025-05-09 13:18:12.197] [info]  [Spotify] WS Connecting
+[2025-05-09 13:18:12.199] [info]  [Spotify] Added account: moonjumpmania
+[2025-05-09 13:18:12.225] [info]  [MessageActionCreators] Fetching messages for 927091484375801896 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-05-09 13:18:12.538] [info]  [GatewaySocket] [READY_SUPPLEMENTAL] took 1511ms
+[2025-05-09 13:18:12.586] [info]  [MessageActionCreators] Fetched 50 messages for 927091484375801896 isBefore:false isAfter:false
+[2025-05-09 13:18:12.594] [info]  [ChannelMessages] loadComplete: resetting state for channelId=927091484375801896, sending.length=0
+[2025-05-09 13:18:12.752] [info]  [Spotify] Updated account access token: moonjumpmania
+[2025-05-09 13:18:12.924] [info]  [Spotify] WS Connected
+[2025-05-09 13:18:12.987] [info]  [Routing/Utils] transitionTo - Transitioning to /channels/@me/1242978451116396566
+[2025-05-09 13:18:12.989] [info]  [MessageActionCreators] Fetching messages for 1242978451116396566 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-05-09 13:18:13.155] [info]  [Spotify] Devices updated for moonjumpmania: 
+[2025-05-09 13:18:13.156] [info]  [Spotify] Profile updated for moonjumpmania: isPremium = true
+[2025-05-09 13:18:13.212] [info]  [MessageActionCreators] Fetched 0 messages for 1242978451116396566 isBefore:false isAfter:false
+[2025-05-09 13:18:13.212] [info]  [ChannelMessages] loadComplete: resetting state for channelId=1242978451116396566, sending.length=0
+[2025-05-09 13:18:14.739] [error] Access to XMLHttpRequest at 'https://cdn.discordapp.com/changelogs/config_0.json?x=3' from origin 'https://discordapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[2025-05-09 13:18:14.746] [error] Uncaught (in promise) Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+[2025-05-09 13:18:15.418] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key meta: 133 !== 91
+[2025-05-09 13:18:15.440] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key shift: 50 !== 16
+[2025-05-09 13:18:22.199] [info]  [ReadStateStore] Deleting ReadState 992009556337111080 0 [object Object]
+[2025-05-09 13:18:22.299] [info]  [ReadStateStore] Deleting ReadState 1333089897585578067 0 [object Object]
+[2025-05-09 13:18:27.391] [info]  [Routing/Utils] transitionTo - Transitioning to /store
+[2025-05-09 13:18:27.816] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Updating userContent with delay 0
+[2025-05-09 13:18:27.821] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Scheduling save from markDirty
+[2025-05-09 13:18:27.822] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Updating userContent with delay 0
+[2025-05-09 13:18:27.846] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Persisting proto
+[2025-05-09 13:18:30.503] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:30.509] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:30.509] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:30.513] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:30.611] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:31.261] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:31.994] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:32.494] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:33.176] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:33.409] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:33.729] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:33.944] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:34.210] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:34.628] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:34.828] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:35.013] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:35.614] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:35.699] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:35.700] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:35.701] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:36.329] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:36.681] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:36.796] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:37.114] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:37.531] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:40.217] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:40.917] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:41.386] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:41.542] [info]  [Routing/Utils] transitionTo - Transitioning to /channels/844654529721925662/927091484375801896
+[2025-05-09 13:18:41.973] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:43.022] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:43.621] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:45.458] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:45.459] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:46.339] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:46.728] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:47.758] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:48.041] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:48.182] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:48.281] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:48.758] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:49.218] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:49.359] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:50.428] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:50.879] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:18:53.348] [info]  [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+[2025-05-09 13:18:53.631] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:19:00.154] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:19:00.654] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:19:05.285] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:19:05.315] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:19:05.321] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:19:05.431] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:19:05.458] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:19:05.461] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:19:05.479] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:19:05.626] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:19:09.964] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:20:05.304] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:20:18.215] [error] ResizeObserver loop completed with undelivered notifications.
+[2025-05-09 13:21:05.304] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:22:05.304] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:23:02.263] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:23:05.304] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:23:33.717] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:23:34.723] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:23:44.067] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:24:05.304] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:25:05.304] [warn]  Unable to determine render window for element [object HTMLDocument]
+[2025-05-09 13:25:08.854] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:12.729] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:13.042] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:13.408] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:13.893] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:14.076] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:14.926] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:15.346] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:15.680] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:15.896] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:16.831] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:17.216] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:17.448] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:18.066] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:18.316] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:18.379] [info]  [MessageActionCreators] Fetching messages for 1336972778259087410 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-05-09 13:25:18.466] [info]  [Routing/Utils] transitionTo - Transitioning to /channels/1262946890190819358/1336972778259087410
+[2025-05-09 13:25:18.637] [info]  [MessageActionCreators] Fetched 15 messages for 1336972778259087410 isBefore:false isAfter:false
+[2025-05-09 13:25:18.640] [info]  [ChannelMessages] loadComplete: resetting state for channelId=1336972778259087410, sending.length=0
+[2025-05-09 13:25:18.817] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:19.298] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:19.851] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:20.048] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:20.799] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:21.433] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:21.918] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:22.353] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:23.105] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:23.462] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:23.830] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:24.105] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:24.289] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:24.389] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:24.922] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:25.605] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:25.606] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:26.623] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:27.055] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:27.971] [info]  [MessageActionCreators] Fetching messages for 798378421293940737 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-05-09 13:25:27.991] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:28.224] [info]  [MessageActionCreators] Fetched 50 messages for 798378421293940737 isBefore:false isAfter:false
+[2025-05-09 13:25:28.229] [info]  [ChannelMessages] loadComplete: resetting state for channelId=798378421293940737, sending.length=0
+[2025-05-09 13:25:28.602] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:28.761] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:29.105] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key v: 55 !== 86
+[2025-05-09 13:25:29.190] [info]  [CloudUpload.tsx] Requesting upload url for upload9
+[2025-05-09 13:25:29.348] [info]  [CloudUpload.tsx] Uploading upload9
+[2025-05-09 13:25:29.379] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:29.578] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:29.929] [info]  [CloudUpload.tsx] Upload complete for upload9
+[2025-05-09 13:25:30.458] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:30.459] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:35.623] [info]  [CloudUploaderBase.tsx] setUploadingTextForUI - total content: 1038644 bytes and 1 attachments for Uploader11
+[2025-05-09 13:25:35.830] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:36.338] [info]  [UploaderBase.tsx] _handleComplete for Uploader11
+[2025-05-09 13:25:36.555] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:39.518] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:39.840] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:25:40.440] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:14.819] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:15.211] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:15.574] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:16.123] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:16.525] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:16.824] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:17.341] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:17.809] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:18.677] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:19.045] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:19.377] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:20.678] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:21.275] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key alt: 64 !== 18
+[2025-05-09 13:26:21.529] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key k: 45 !== 75
+[2025-05-09 13:26:21.730] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:22.848] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:23.315] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:24.401] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key w: 25 !== 87
+[2025-05-09 13:26:24.604] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:25.019] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key backspace: 22 !== 8
+[2025-05-09 13:26:25.300] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:48.356] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key a: 38 !== 65
+[2025-05-09 13:26:48.508] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:48.624] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:48.638] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key s: 39 !== 83
+[2025-05-09 13:26:48.808] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:49.048] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key t: 28 !== 84
+[2025-05-09 13:26:49.275] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:49.388] [info]  [Routing/Utils] transitionTo - Transitioning to /channels/@me/1367347264837914684
+[2025-05-09 13:26:49.391] [info]  [MessageActionCreators] Fetching messages for 1367347264837914684 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-05-09 13:26:49.503] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key enter: 36 !== 13
+[2025-05-09 13:26:49.560] [info]  [MessageActionCreators] Fetched 0 messages for 1367347264837914684 isBefore:false isAfter:false
+[2025-05-09 13:26:49.560] [info]  [ChannelMessages] loadComplete: resetting state for channelId=1367347264837914684, sending.length=0
+[2025-05-09 13:26:49.684] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:49.927] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:50.343] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:50.588] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:50.590] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:51.077] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:52.604] [info]  [CloudUpload.tsx] Requesting upload url for upload12
+[2025-05-09 13:26:52.744] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:52.852] [info]  [CloudUpload.tsx] Uploading upload12
+[2025-05-09 13:26:53.463] [info]  [CloudUpload.tsx] Upload complete for upload12
+[2025-05-09 13:26:53.886] [info]  [CloudUploaderBase.tsx] setUploadingTextForUI - total content: 1038644 bytes and 1 attachments for Uploader14
+[2025-05-09 13:26:54.072] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:54.874] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key 9: 18 !== 57
+[2025-05-09 13:26:55.013] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:55.447] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:55.692] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key h: 43 !== 72
+[2025-05-09 13:26:55.831] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:55.921] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key o: 32 !== 79
+[2025-05-09 13:26:56.064] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:56.126] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key u: 30 !== 85
+[2025-05-09 13:26:56.265] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:56.355] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key r: 27 !== 82
+[2025-05-09 13:26:56.499] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:56.619] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:56.749] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:56.817] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key j: 44 !== 74
+[2025-05-09 13:26:56.949] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:57.149] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:57.332] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:57.432] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:57.583] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key f: 41 !== 70
+[2025-05-09 13:26:57.719] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:57.849] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:57.950] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:58.127] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:58.222] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key p: 33 !== 80
+[2025-05-09 13:26:58.751] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:59.090] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key 1: 10 !== 49
+[2025-05-09 13:26:59.219] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:59.369] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:59.549] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key i: 31 !== 73
+[2025-05-09 13:26:59.685] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:59.802] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:26:59.918] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:00.252] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:00.315] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key l: 46 !== 76
+[2025-05-09 13:27:00.443] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Key code mismatch for key d: 40 !== 68
+[2025-05-09 13:27:00.452] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:00.555] [info]  [MessageQueue] Queueing message to be sent LogId:5534
+[2025-05-09 13:27:00.556] [info]  [MessageQueue] Draining message from queue LogId:5534 QueueLength: 0
+[2025-05-09 13:27:00.556] [info]  [MessageQueue] Draining Message Queue with:  0
+[2025-05-09 13:27:00.569] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:00.686] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:03.158] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:03.893] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:04.009] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:04.210] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:04.757] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:05.627] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:06.109] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:06.442] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:07.198] [info]  [MessageQueue] Finished draining message from queue LogId:5534 QueueLength: 0
+[2025-05-09 13:27:07.230] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:07.268] [info]  [UploaderBase.tsx] _handleComplete for Uploader14
+[2025-05-09 13:27:07.344] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:07.611] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:09.846] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:10.521] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:11.448] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:12.026] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Updating userContent with delay 0
+[2025-05-09 13:27:12.030] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Scheduling save from markDirty
+[2025-05-09 13:27:12.065] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Persisting proto
+[2025-05-09 13:27:12.287] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:12.582] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:14.418] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:14.968] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:15.456] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:15.458] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:15.938] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:17.090] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:18.141] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:18.392] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:18.570] [info]  [MessageActionCreators] Fetching messages for 467442751684870147 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-05-09 13:27:18.666] [info]  [Routing/Utils] transitionTo - Transitioning to /channels/467442751684870145/467442751684870147
+[2025-05-09 13:27:18.775] [info]  [MessageActionCreators] Fetched 50 messages for 467442751684870147 isBefore:false isAfter:false
+[2025-05-09 13:27:18.780] [info]  [ChannelMessages] loadComplete: resetting state for channelId=467442751684870147, sending.length=0
+[2025-05-09 13:27:19.085] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:19.408] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:20.453] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:20.454] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:20.777] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:23.994] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:25.462] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:26.014] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:27.066] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:27.451] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:27.829] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:27.975] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:28.333] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:28.916] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:29.167] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:29.401] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:30.407] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:30.623] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:30.807] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:31.017] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:31.207] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:32.877] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:33.255] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:33.737] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:34.471] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:34.578] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:34.775] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Updating audioContextSettings with delay 0
+[2025-05-09 13:27:34.781] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Scheduling save from markDirty
+[2025-05-09 13:27:34.781] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Persisting proto
+[2025-05-09 13:27:35.056] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:35.322] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:35.707] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:35.979] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:36.142] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:36.362] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:36.524] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:37.041] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:37.295] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:37.425] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:37.893] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:38.195] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:38.495] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:38.609] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:38.947] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:39.089] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Updating audioContextSettings with delay 0
+[2025-05-09 13:27:39.100] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Scheduling save from markDirty
+[2025-05-09 13:27:39.100] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Persisting proto
+[2025-05-09 13:27:39.562] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:40.283] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:40.912] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:45.635] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:46.000] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:46.355] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:46.984] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:47.489] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Updating audioContextSettings with delay 0
+[2025-05-09 13:27:47.498] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Scheduling save from markDirty
+[2025-05-09 13:27:47.505] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Persisting proto
+[2025-05-09 13:27:47.555] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:48.936] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:49.270] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:49.987] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:51.926] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:52.190] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:52.593] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:52.723] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:52.908] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:53.330] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:55.160] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:55.461] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:55.860] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:27:57.046] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Updating audioContextSettings with delay 0
+[2025-05-09 13:27:57.056] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Scheduling save from markDirty
+[2025-05-09 13:27:57.056] [info]  [discord_protos.discord_users.v1.PreloadedUserSettings] Persisting proto
+[2025-05-09 13:27:57.515] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:33:42.745] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:33:50.448] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:33:51.480] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:50:24.875] [info]  [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.18 seconds.
+[2025-05-09 13:50:26.057] [info]  [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-09 13:50:26.147] [info]  [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 90 ms
+[2025-05-09 13:50:26.148] [info]  [GatewaySocket] [RESUME] resuming session 7daf8b07cdbb579026f55914b32dd84f, seq: 1475
+[2025-05-09 13:50:26.242] [info]  [Flux] Dispatching CONNECTION_RESUMED
+[2025-05-09 13:50:26.247] [info]  [GatewaySocket] [RESUMED] took 190ms, replayed 0 events, new seq: 1481
+[2025-05-09 13:50:26.505] [info]  [discord_protos.discord_users.v1.FrecencyUserSettings] Scheduling save from markDirty
+[2025-05-09 13:50:26.505] [info]  [discord_protos.discord_users.v1.FrecencyUserSettings] Persisting proto
+[2025-05-09 13:52:38.432] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:53:17.477] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:53:18.559] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:48.847] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:49.096] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:49.329] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:49.665] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:50.032] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:50.832] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:52.087] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:52.198] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:56:53.683] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:41.765] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:42.273] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:42.465] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:43.082] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:43.341] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:44.000] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:44.382] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:44.982] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:45.085] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:45.383] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:45.833] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:46.267] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:46.433] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:47.801] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:49.102] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:49.737] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:50.429] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:51.074] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:51.275] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:51.491] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:51.709] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:51.856] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:52.573] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:52.773] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:53.227] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:53.461] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:53.660] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:53.777] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:54.013] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:54.157] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:54.424] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:55.278] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:55.476] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:55.879] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:56.313] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:56.478] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:57.030] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:57.160] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:57.345] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:57.715] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:57.962] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:58.716] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:58.983] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:59.484] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:58:59.666] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:00.214] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:00.781] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:01.268] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:01.619] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:01.783] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:02.234] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:03.254] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:03.353] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:03.787] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:03.904] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:04.087] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:04.857] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:05.041] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:06.788] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:06.889] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:07.604] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:07.955] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:08.456] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:08.623] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:08.910] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:09.509] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:09.727] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 13:59:12.361] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 14:29:20.669] [info]  [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-09 14:29:20.753] [info]  [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 84 ms
+[2025-05-09 14:29:20.753] [info]  [GatewaySocket] [RESUME] resuming session 7daf8b07cdbb579026f55914b32dd84f, seq: 2979
+[2025-05-09 14:29:20.850] [info]  [Flux] Dispatching CONNECTION_RESUMED
+[2025-05-09 14:29:20.851] [info]  [GatewaySocket] [RESUMED] took 182ms, replayed 0 events, new seq: 2980
+[2025-05-09 14:29:53.712] [error] Uncaught (in promise) HTTPResponseError: GET /guilds/xxx/premium/subscriptions [403]
+[2025-05-09 14:32:07.373] [error] Uncaught (in promise) HTTPResponseError: GET /guilds/xxx/premium/subscriptions [403]
+[2025-05-09 15:17:37.155] [info]  [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.52 seconds.
+[2025-05-09 15:17:39.679] [info]  [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-09 15:17:39.775] [info]  [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 96 ms
+[2025-05-09 15:17:39.775] [info]  [GatewaySocket] [RESUME] resuming session 7daf8b07cdbb579026f55914b32dd84f, seq: 5780
+[2025-05-09 15:17:39.866] [info]  [Flux] Dispatching CONNECTION_RESUMED
+[2025-05-09 15:17:39.866] [info]  [GatewaySocket] [RESUMED] took 187ms, replayed 0 events, new seq: 5782
+[2025-05-09 15:50:50.484] [info]  [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-09 15:50:50.572] [info]  [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 87 ms
+[2025-05-09 15:50:50.572] [info]  [GatewaySocket] [RESUME] resuming session 7daf8b07cdbb579026f55914b32dd84f, seq: 7167
+[2025-05-09 15:50:50.666] [info]  [Flux] Dispatching CONNECTION_RESUMED
+[2025-05-09 15:50:50.670] [info]  [GatewaySocket] [RESUMED] took 186ms, replayed 0 events, new seq: 7168
+[2025-05-09 16:18:45.395] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 16:18:45.596] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 16:19:32.209] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 17:25:43.750] [info]  [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-09 17:25:43.863] [info]  [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 113 ms
+[2025-05-09 17:25:43.864] [info]  [GatewaySocket] [RESUME] resuming session 7daf8b07cdbb579026f55914b32dd84f, seq: 10657
+[2025-05-09 17:25:43.958] [info]  [Flux] Dispatching CONNECTION_RESUMED
+[2025-05-09 17:25:43.961] [info]  [GatewaySocket] [RESUMED] took 211ms, replayed 0 events, new seq: 10659
+[2025-05-09 17:40:52.063] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:32:21.071] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:32:21.317] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:32:21.435] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:34:25.637] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:34:27.050] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:49:51.583] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:49:54.716] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:49:55.407] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:49:57.602] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:49:58.036] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:50:06.360] [error] Uncaught (in promise) AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22
+[2025-05-09 18:50:06.546] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:50:39.295] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:50:39.979] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:50:40.296] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:50:43.082] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:50:46.468] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2025-05-09 18:58:47.137] [info]  [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.20 seconds.
+[2025-05-09 18:58:48.336] [info]  [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-05-09 18:58:48.427] [info]  [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 91 ms
+[2025-05-09 18:58:48.427] [info]  [GatewaySocket] [RESUME] resuming session 7daf8b07cdbb579026f55914b32dd84f, seq: 14168
+[2025-05-09 18:58:48.529] [info]  [Flux] Dispatching CONNECTION_RESUMED
+[2025-05-09 18:58:48.530] [info]  [GatewaySocket] [RESUMED] took 193ms, replayed 0 events, new seq: 14185

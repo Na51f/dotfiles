@@ -1,8 +1,50 @@
-2025/05/07-12:39:19.248 ab27 Creating DB /home/sqibo/.config/discord/Local Storage/leveldb since it was missing.
-2025/05/07-12:39:19.257 ab27 Reusing MANIFEST /home/sqibo/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/05/07-12:44:23.677 ab28 Level-0 table #5: started
-2025/05/07-12:44:23.696 ab28 Level-0 table #5: 3629769 bytes OK
-2025/05/07-12:44:23.697 ab28 Delete type=0 #3
-2025/05/07-13:10:08.373 ab28 Level-0 table #7: started
-2025/05/07-13:10:08.374 ab28 Level-0 table #7: 67602 bytes OK
-2025/05/07-13:10:08.375 ab28 Delete type=0 #4
+2025/05/09-13:18:08.536 287b Reusing MANIFEST /home/sqibo/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/05/09-13:18:08.540 287b Recovering log #6
+2025/05/09-13:18:08.540 287b Level-0 table #9: started
+2025/05/09-13:18:08.541 287b Level-0 table #9: 68597 bytes OK
+2025/05/09-13:18:08.542 287b Delete type=0 #6
+2025/05/09-13:18:35.482 287c Level-0 table #12: started
+2025/05/09-13:18:35.484 287c Level-0 table #12: 82771 bytes OK
+2025/05/09-13:18:35.484 287c Delete type=0 #10
+2025/05/09-13:19:09.024 287c Level-0 table #14: started
+2025/05/09-13:19:09.042 287c Level-0 table #14: 3573790 bytes OK
+2025/05/09-13:19:09.043 287c Delete type=0 #11
+2025/05/09-13:23:11.419 2897 Level-0 table #16: started
+2025/05/09-13:23:11.420 2897 Level-0 table #16: 63873 bytes OK
+2025/05/09-13:23:11.421 2897 Delete type=0 #13
+2025/05/09-13:23:11.421 2897 Compacting 4@0 + 1@1 files
+2025/05/09-13:23:11.433 2897 Generated table #17@0: 8 keys, 2530465 bytes
+2025/05/09-13:23:11.445 2897 Generated table #18@0: 30 keys, 1093769 bytes
+2025/05/09-13:23:11.445 2897 Compacted 4@0 + 1@1 files => 3624234 bytes
+2025/05/09-13:23:11.446 2897 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/05/09-13:23:11.446 2897 Delete type=2 #12
+2025/05/09-13:23:11.446 2897 Delete type=2 #16
+2025/05/09-13:23:11.446 2897 Delete type=2 #7
+2025/05/09-13:23:11.446 2897 Delete type=2 #14
+2025/05/09-13:23:11.446 2897 Delete type=2 #9
+2025/05/09-13:28:09.023 287c Level-0 table #20: started
+2025/05/09-13:28:09.024 287c Level-0 table #20: 67095 bytes OK
+2025/05/09-13:28:09.025 287c Delete type=0 #15
+2025/05/09-13:56:53.601 287c Level-0 table #22: started
+2025/05/09-13:56:53.602 287c Level-0 table #22: 63561 bytes OK
+2025/05/09-13:56:53.603 287c Delete type=0 #19
+2025/05/09-14:34:47.629 287c Level-0 table #24: started
+2025/05/09-14:34:47.630 287c Level-0 table #24: 62903 bytes OK
+2025/05/09-14:34:47.631 287c Delete type=0 #21
+2025/05/09-16:31:07.753 287c Level-0 table #26: started
+2025/05/09-16:31:07.754 287c Level-0 table #26: 59186 bytes OK
+2025/05/09-16:31:07.755 287c Delete type=0 #23
+2025/05/09-16:31:07.755 287c Compacting 4@0 + 2@1 files
+2025/05/09-16:31:07.767 287c Generated table #27@0: 8 keys, 2530465 bytes
+2025/05/09-16:31:07.780 287c Generated table #28@0: 32 keys, 1092631 bytes
+2025/05/09-16:31:07.780 287c Compacted 4@0 + 2@1 files => 3623096 bytes
+2025/05/09-16:31:07.780 287c compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/05/09-16:31:07.780 287c Delete type=2 #24
+2025/05/09-16:31:07.781 287c Delete type=2 #22
+2025/05/09-16:31:07.781 287c Delete type=2 #18
+2025/05/09-16:31:07.781 287c Delete type=2 #26
+2025/05/09-16:31:07.781 287c Delete type=2 #20
+2025/05/09-16:31:07.781 287c Delete type=2 #17
+2025/05/09-17:43:41.817 287c Level-0 table #30: started
+2025/05/09-17:43:41.829 287c Level-0 table #30: 2559952 bytes OK
+2025/05/09-17:43:41.830 287c Delete type=0 #25

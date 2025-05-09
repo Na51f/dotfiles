@@ -1,2 +1,3 @@
-2025/05/07-12:39:26.147 ab27 Creating DB /home/sqibo/.config/discord/shared_proto_db since it was missing.
-2025/05/07-12:39:26.149 ab27 Reusing MANIFEST /home/sqibo/.config/discord/shared_proto_db/MANIFEST-000001
+2025/05/09-13:18:27.789 287b Reusing MANIFEST /home/sqibo/.config/discord/shared_proto_db/MANIFEST-000001
+2025/05/09-13:18:27.789 287b Recovering log #3
+2025/05/09-13:18:27.789 287b Reusing old log /home/sqibo/.config/discord/shared_proto_db/000003.log 

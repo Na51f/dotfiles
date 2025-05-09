@@ -1,0 +1,8 @@
+2025/05/07-12:39:19.248 ab27 Creating DB /home/sqibo/.config/discord/Local Storage/leveldb since it was missing.
+2025/05/07-12:39:19.257 ab27 Reusing MANIFEST /home/sqibo/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/05/07-12:44:23.677 ab28 Level-0 table #5: started
+2025/05/07-12:44:23.696 ab28 Level-0 table #5: 3629769 bytes OK
+2025/05/07-12:44:23.697 ab28 Delete type=0 #3
+2025/05/07-13:10:08.373 ab28 Level-0 table #7: started
+2025/05/07-13:10:08.374 ab28 Level-0 table #7: 67602 bytes OK
+2025/05/07-13:10:08.375 ab28 Delete type=0 #4
