@@ -1,15 +1,23 @@
-# XDG
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_CACHE_HOME="$HOME/.cache"
-export XDG_STATE_HOME="$HME/.local/state"
+# RUN THE FOLLOWING TO MAKE ZSH FILES OBTAINABLE BY ZSH
+# sudo ./zshsetup.sh
 
-# Default editor for CLI applications (sometimes applications open nano or something similar by default
+if [[ -z "$XDG_DATA_HOME" ]]
+then
+        export XDG_DATA_HOME="$HOME/.local/share"
+fi
+if [[ -z "$XDG_CACHE_HOME" ]]
+then
+        export XDG_CACHE_HOME="$HOME/.cache"
+fi
+if [[ -z "$XDG_STATE_HOME" ]]
+then
+        export XDG_STATE_HOME="$HOME/.local/state"
+fi
+
+
+# Default editor for CLI applications (sometimes applications open nano or something similar by default)
 export EDITOR="nvim"
 export VISUAL="nvim"
-
-# Home of all zsh files
-export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # zsh history file
 export HISTFILE="$ZDOTDIR/.zhistory"
