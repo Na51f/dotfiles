@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/ask-t3-chat.ts"],
+  "sourcesContent": ["import { getPreferenceValues, LaunchProps, open } from \"@raycast/api\";\n\nexport default async function Command(props: LaunchProps<{ arguments: Arguments.AskT3Chat }>) {\n  const { model, useBeta } = getPreferenceValues<Preferences.AskT3Chat>();\n\n  const domain = useBeta ? \"beta.t3.chat\" : \"t3.chat\";\n  await open(\n    `https://${domain}/new?q=${encodeURIComponent(props.arguments.query ?? props.fallbackText ?? \"\")}&model=${encodeURIComponent(model)}`,\n  );\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAuD,wBAEvD,eAAOF,EAA+BG,EAAwD,CAC5F,GAAM,CAAE,MAAAC,EAAO,QAAAC,CAAQ,KAAI,uBAA2C,EAGtE,QAAM,QACJ,WAFaA,EAAU,eAAiB,SAEvB,UAAU,mBAAmBF,EAAM,UAAU,OAASA,EAAM,cAAgB,EAAE,CAAC,UAAU,mBAAmBC,CAAK,CAAC,EACrI,CACF",
+  "names": ["ask_t3_chat_exports", "__export", "Command", "__toCommonJS", "import_api", "props", "model", "useBeta"]
+}
