@@ -1,6 +1,6 @@
 alias jarvis='sudo'
 alias killyourself='poweroff'
-alias nvim='sudo nvim'
+alias vim='sudo nvim'
 
 alias ga='git add'
 alias gc='git commit'
