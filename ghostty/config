@@ -19,8 +19,8 @@
 # ==========================
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
-# font-family = 
-window-padding-x = 2
+# font-family = # Jetbrains is the default font
+window-padding-x = 4
 #
 # # Spacing around the equals sign does not matter.
 # # All of these are identical:

@@ -7,6 +7,6 @@ alias gc='git commit'
 alias gp='git push'
 
 alias hist='history | grep'
-alias inst='sudo pacman -S'
-alias rem='sudo pacman -Rcns'
+alias inst='yay -S'
+alias rem='yay -Rns'
 alias srczsh='source source $XDG_CONFIG_HOME/zsh/*'
