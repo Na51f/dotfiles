@@ -1,12 +1,32 @@
-alias jarvis='sudo'
-alias killyourself='poweroff'
-alias vim='sudo nvim'
+#!/usr/bin/env bash
 
+# systemctl commands
+alias shutdown='systemctl shutdown'
+alias reboot='systemctl reboot'
+alias sleep='systemctl suspend'
+
+alias jarvis='sudo' # Funny sudo alias
+
+# Git
 alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
+alias gs='git status'
 
-alias hist='history | grep'
+# File commands
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
+alias la='ls -alh'
+alias dush='du -sh * | sort -hr'
+
+# Editors
+alias vim='nvim'
+alias vi='nvim'
+alias svim='sudoedit'
+
+# Command shortcuts
+alias hist='history | grep -P -i --color=auto'
 alias inst='yay -S'
 alias rem='yay -Rns'
-alias srczsh='source source $XDG_CONFIG_HOME/zsh/*'
+alias srczsh='source $XDG_CONFIG_HOME/zsh/*'
