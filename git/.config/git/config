@@ -1,0 +1,98 @@
+# Config based on codingjerk's
+[user]
+  name = Cephalode
+  email = git@cephalode.com
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadindex = true
+
+[advice]
+  addEmptyPathspec = false
+  pushNonFastForward = false
+  statusHints = false
+
+[init]
+  defaultBranch = dev
+
+[commit]
+  template = ~/.config/git/template
+  verbose = true
+
+[status]
+  branch = true
+  showStash
+  showUntrackedFiles = all
+
+[diff]
+  context = 3
+  renames = copies
+  interHunkContext = 10
+
+[pager]
+  diff = diff-so-fancy | $PAGER
+  branch = false
+  tag = false
+
+[diff-so-fancy]
+  markEmptyLines = false;
+
+[interactive]
+  diffFilter = diff-so-fancy --patch
+  singlekey = true
+
+[push]
+  autoSetupRemote = true
+  default = current
+  followTags = true
+
+[pull]
+  default = current
+  rebase = true
+
+[rebase]
+  autoStash = true
+  missingCommitsCheck = warn
+
+[log]
+  abbrevCommit = true
+  graphColors = blue,yellow,cyan,magenta,green,red
+
+[branch]
+  sort = -committerdate
+
+[tag]
+  sort = -taggerdate
+
+[url "git@github.com:Cephalode/"]
+  insteadOf = "me:"
+
+[url "git@github.com:datainn/"]
+  insteadOf = "work:"
+
+[url "git@github.com:"]
+  insteadOf = "gh:"
+
+[color "diff"]
+  meta = black bold
+  frag = magenta
+  context = white
+  whitespace = yellow reverse
+  old = red
+
+[color "decorate"]
+  HEAD = red
+  branch = blue
+  tag = yellow
+  remoteBranch = magenta
+
+[color "branch"]
+  current = magenta
+  local = default
+  remote = yellow
+  upstream = green
+  plain = blue
+
+[hub]
+  protocol = ssh
