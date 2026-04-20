@@ -67,9 +67,15 @@ alias v="/Users/omerxx/.nix-profile/bin/nvim"
 # Nmap
 alias nm="nmap -sC -sV -oN nmap"
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/omer/.vimpkg/bin:${GOPATH}/bin:/Users/omerxx/.cargo/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/omer/.vimpkg/bin:${GOPATH}/bin:/Users/omerxx/.cargo/bin:/Users/sqibo/.cargo/bin
 
 alias cl='clear'
+
+# macOS
+alias rm='trash'
+alias o='open'
+alias pbcopy='pbcopy'
+alias pbpaste='pbpaste'
 
 # K8S
 export KUBECONFIG=~/.kube/config
@@ -154,3 +160,8 @@ export XDG_CONFIG_HOME="/Users/omerxx/.config"
 eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
+
+# Hermes Agent — ensure ~/.local/bin is on PATH
+export PATH="$HOME/.local/bin:$PATH"
+ANTHROPIC_API_KEY=caf513c8f39040e8a9244867def4f884.jNsj7fOSto3lzprA
+export PATH="$HOME/.cargo/bin:$PATH"

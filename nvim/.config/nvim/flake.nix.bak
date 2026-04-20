@@ -1,0 +1,14 @@
+{
+  description = "Neovim configuration for Sqibo";
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nix-wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";
+    nix-wrapper-modules.inputs.nixpkgs.follows = "nixpkgs";
+  };
+
+  outputs = { self, nixpkgs, ... }@inputs: {
+    packages.aarch64-darwin.default = { pkgs, ... }: {
+      imports = [ nix-wrapper-modules.modules.nvim ];
+    };
+  };
+}
