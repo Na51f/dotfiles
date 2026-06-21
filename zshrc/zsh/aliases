@@ -1,0 +1,115 @@
+#!/usr/bin/env bash
+
+# File commands
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
+alias dush='du -sh * | sort -hr'
+alias wget='wget --hsts-file=$XDG_DATA_HOME/wget-hsts'
+alias tree='tree --dirsfirst'
+alias cat='bat'
+alias ls='eza'
+
+# Editors
+alias svim='sudoedit'
+alias claude='claude --dangerously-skip-permissions'
+
+# Command shortcuts
+alias hist='history | grep'
+alias srczsh='source $ZDOTDIR/.zshrc; source $ZDOTDIR/.zshenv'
+alias fetch='uwufetch'
+alias golden='echo 0.61803398875'
+alias cl='clear'
+
+# Mac commands
+alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
+alias o='open'
+alias pbcopy='pbcopy'
+alias pbpaste='pbpaste'
+alias rm_macos='trash'
+
+# Other apps
+alias adb='HOME="$XDG_DATA_HOME"/android adb' # adds xdg path
+
+# TMUX
+alias tn='tmux new-session -s'
+alias tl='tmux list-sessions'
+alias ta='tmux attach-session'
+
+# Git
+alias gs='git status --short'
+alias gd="git diff --output-indicator-new=' ' --output-indicator-old=' '"
+alias ga='git add'
+alias gap='git add --patch'
+alias gc='git commit'
+alias gp='git push'
+alias gu='git pull'
+alias gl="git log --all --graph --pretty=\
+  format:'%C(magenta)%h %C(white) %an %ar%C(auto) %D%n%s%n'"
+alias gb='git branch'
+alias gco='git checkout'
+alias gi='git init'
+alias gcl='git clone'
+# Old git aliases (from previous .zshrc)
+alias gca='git commit -a -m'
+alias gst='git status'
+alias glog="git log --graph --topo-order --pretty='%w(100,0,6)%C(yellow)%h%C(bold)%C(black)%d %C(cyan)%ar %C(green)%an%n%C(bold)%C(white)%s %N' --abbrev-commit"
+alias gdiff='git diff'
+alias gba='git branch -a'
+alias gadd='git add'
+alias gcoall='git checkout -- .'
+alias gr='git remote'
+alias gre='git reset'
+
+# Docker
+alias dco='docker compose'
+alias dps='docker ps'
+alias dpa='docker ps -a'
+alias dl='docker ps -l -q'
+alias dx='docker exec -it'
+
+# Directory navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+
+# Eza
+alias l='eza -l --icons --git -a'
+alias lt='eza --tree --level=2 --long --icons --git'
+alias ltree='eza --tree --level=2 --icons --git'
+
+# K8S
+export KUBECONFIG=~/.kube/config
+alias k='kubectl'
+alias ka='kubectl apply -f'
+alias kg='kubectl get'
+alias kd='kubectl describe'
+alias kdel='kubectl delete'
+alias kl='kubectl logs'
+alias kl='kubectl logs -f'
+alias ke='kubectl exec -it'
+alias kc='kubectx'
+alias kns='kubens'
+alias kcns='kubectl config set-context --current --namespace'
+
+# HTTP requests with xh!
+alias http='xh'
+
+# Security
+alias gobust='gobuster dir --wordlist ~/security/wordlists/diccnoext.txt --wildcard --url'
+alias dirsearch='python dirsearch.py -w db/dicc.txt -b -u'
+alias massdns='~/hacking/tools/massdns/bin/massdns -r ~/hacking/tools/massdns/lists/resolvers.txt -t A -o S bf-targets.txt -w livehosts.txt -s 4000'
+alias server='python -m http.server 4445'
+alias tunnel='ngrok http 4445'
+alias fuzz='ffuf -w ~/hacking/SecLists/content_discovery_all.txt -mc all -u'
+
+# Scripts
+alias on='$XDG_CONFIG_HOME/scripts/on'
+
+# Matrix easter egg
+alias mat='osascript -e "tell application \"System Events\" to key code 126 using {command down}" && tmux neww "cmatrix"'
+
+# VI Mode
+bindkey jj vi-cmd-mode
