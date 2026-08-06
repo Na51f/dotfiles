@@ -1,5 +1,5 @@
 .DS_Store
-tmux/plugins/
+graphify-out/
 raycast
 fzf
 history.txt

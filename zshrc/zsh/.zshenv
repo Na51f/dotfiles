@@ -27,8 +27,6 @@ export SUDO_EDITOR="nvim"
 export OBSIDIAN_MAIN_DIR="$HOME"/notes/main
 export OBSIDIAN_WORK_DIR="$HOME"/notes/work
 
-export BW_SESSION="GiJA/EjgLCtUbLFDsUPMYwWiYlrRimPVYNgUU4gV103YpZlW3kel8D3FrGzDo34LQfuT+kD2WE3AjcSFWunbUg=="
-
 # zsh history file
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 export HISTSIZE=9999999999

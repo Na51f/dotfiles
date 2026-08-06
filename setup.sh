@@ -1,2 +1,19 @@
 #!/usr/bin/env bash
-stow --target="$HOME" aerospace karabiner git kitty btop cava fuzzel niri kanata keyd gtk-3 gtk-4 tmux zshrc
+set -euo pipefail
+
+# Shared packages (all platforms)
+shared="git btop cava fuzzel gtk-3 gtk-4 zshrc"
+
+# Platform-specific packages
+case "$(uname -s)" in
+  Darwin)
+    stow --target="$HOME" $shared aerospace karabiner kitty niri kanata keyd
+    ;;
+  Linux)
+    stow --target="$HOME" $shared kitty niri kanata keyd
+    ;;
+  *)
+    echo "Unknown OS: $(uname -s)"
+    exit 1
+    ;;
+esac
