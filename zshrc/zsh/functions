@@ -15,6 +15,39 @@ function y {
 	rm -f -- "$tmp"
 }
 
+# Bitwarden unlock — reads master password from Keychain, no typing needed
+bwu() {
+  if bw status 2>/dev/null | grep -q '"status":"unlocked"'; then
+    echo "Vault already unlocked."
+    return 0
+  fi
+
+  local master_pass=""
+  [[ "$(uname)" == "Darwin" ]] && master_pass="$(security find-generic-password -a "$USER" -s "BW_MASTER" -w 2>/dev/null)"
+
+  if [[ -n "$master_pass" ]]; then
+    local tmp="$(mktemp)"
+    printf '%s' "$master_pass" > "$tmp"
+    export BW_SESSION="$(bw unlock --raw --passwordfile "$tmp")"
+    rm -f "$tmp"
+  else
+    export BW_SESSION="$(bw unlock --raw "$@")"
+  fi
+
+  if [[ -n "$BW_SESSION" ]]; then
+    [[ "$(uname)" == "Darwin" ]] && security add-generic-password -a "$USER" -s "BW_SESSION" -w "$BW_SESSION" -U 2>/dev/null
+    echo "Vault unlocked. BW_SESSION set + saved to keychain."
+  else
+    echo "Unlock failed."
+    return 1
+  fi
+}
+
+# Restore BW_SESSION from keychain on shell startup
+if [[ "$(uname)" == "Darwin" ]] && [[ -z "$BW_SESSION" ]]; then
+  export BW_SESSION="$(security find-generic-password -a "$USER" -s "BW_SESSION" -w 2>/dev/null)"
+fi
+
 # Navigation
 cx() { cd "$@" && l; }
 fcd() { cd "$(find . -type d -not -path '*/.*' | fzf)" && l; }

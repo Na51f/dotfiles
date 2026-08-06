@@ -14,6 +14,7 @@ compinit
 # ZSH setup
 source $ZDOTDIR/.zshenv
 source $ZDOTDIR/aliases
+source $ZDOTDIR/functions
 
 # bun completions
 [ -s "/Users/sqibo/.bun/_bun" ] && source "/Users/sqibo/.bun/_bun"
@@ -73,3 +74,5 @@ RPROMPT=' %F{blue}%K{blue}%F{black} %n@%m %f%k%F{blue}'
 
 # Turso
 export PATH="$PATH:/Users/sqibo/.turso"
+
+export PATH="$HOME/bin:$PATH"

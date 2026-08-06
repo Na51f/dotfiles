@@ -158,8 +158,8 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
-    Mod+Space hotkey-overlay-title="Run an Application: Noctalia Launcher" { spawn-sh "noctalia-shell ipc call launcher toggle"; }
-    Super+Alt+L hotkey-overlay-title="Lock the Screen: Noctalia Lock" { spawn-sh "noctalia-shell ipc call lockScreen lock"; }
+    Mod+Space hotkey-overlay-title="Run an Application: Noctalia Launcher" { spawn-sh "noctalia ipc call launcher toggle"; }
+    Super+Alt+L hotkey-overlay-title="Lock the Screen: Noctalia Lock" { spawn-sh "noctalia ipc call lockScreen lock"; }
 
     Mod+B hotkey-overlay-title="Open a Browser: Zen" { spawn "zen"; }
 
