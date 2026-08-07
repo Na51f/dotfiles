@@ -46,8 +46,12 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME"/python/pythonrc
 export MPLCONFIGDIR="$XDG_CACHE_HOME"/matplotlib
 export ANDROID_USER_HOME="$XDG_DATA_HOME"/android
-export PATH="$(brew --prefix openjdk)/bin:$PATH"
-export PATH="/Library/TeX/texbin:$PATH"
+
+# macOS-only PATH additions
+if [[ "$(uname -s)" == "Darwin" ]]; then
+  export PATH="$(brew --prefix openjdk)/bin:$PATH"
+  export PATH="/Library/TeX/texbin:$PATH"
+fi
 
 # Go
 export GOPATH="$XDG_DATA_HOME/go"
@@ -55,7 +59,9 @@ export PATH="$GOPATH/bin:$PATH"
 
 # Nix
 export NIX_CONF_DIR=$HOME/.config/nix
-export PATH=/run/current-system/sw/bin:$PATH
+if [[ "$(uname -s)" == "Darwin" ]]; then
+  export PATH=/run/current-system/sw/bin:$PATH
+fi
 if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
     . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
 fi
