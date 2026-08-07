@@ -1,16 +1,15 @@
 [color]
-background = '#0a151a'
-foreground = '#59dbc0'
+foreground = '#7ed0ff'
 
 gradient = 1
-gradient_color_1 = '#005144'
-gradient_color_2 = '#59dbc0'
-gradient_color_3 = '#79f8dc'
+gradient_color_1 = '#004c6a'
+gradient_color_2 = '#7ed0ff'
+gradient_color_3 = '#c5e7ff'
 
 horizontal_gradient = 0
-horizontal_gradient_color_1 = '#005144'
-horizontal_gradient_color_2 = '#59dbc0'
-horizontal_gradient_color_3 = '#79f8dc'
-horizontal_gradient_color_4 = '#59dbc0'
-horizontal_gradient_color_5 = '#005144'
+horizontal_gradient_color_1 = '#004c6a'
+horizontal_gradient_color_2 = '#7ed0ff'
+horizontal_gradient_color_3 = '#c5e7ff'
+horizontal_gradient_color_4 = '#7ed0ff'
+horizontal_gradient_color_5 = '#004c6a'
 
