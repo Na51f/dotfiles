@@ -32,9 +32,20 @@ order = [ "default" ]
     radius = 12
     padding = 14
     widget_spacing = 6
-    start = [ "launcher", "clock", "sysmon-cpu", "sysmon-ram", "active-window", "media" ]
+    start = [ "launcher", "clock", "cpu", "ram", "active_window", "media" ]
     center = [ "workspaces" ]
     end = [ "tray", "notifications", "battery", "volume", "brightness", "control-center" ]
+
+[widget.cpu]
+stat = "cpu_usage"
+type = "sysmon"
+
+[widget.ram]
+stat = "ram_used"
+type = "sysmon"
+
+[widget.active_window]
+type = "active_window"
 
 [theme]
 mode = "dark"
