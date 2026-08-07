@@ -1,31 +1,21 @@
-<<<<<<< Updated upstream
-.DS_Store
+*.DS_Store*
 graphify-out/
 raycast
 fzf
 history.txt
 .ralph-tui/
 __pycache__/
-=======
-*.DS_Store*
 rclone
 gh/
 Cursor/
 google-chrome/
-
 legcord/
 discord/
 equibop/Crashpad
 equibop/MessageLoggerData
 equibop/sessionData
-
 zsh/.zcompdump
-
 heroic/
-
-# Bambu Studio
 BambuStudio/cache
 BambuStudio/log
-
 BeeperTexts/
->>>>>>> Stashed changes

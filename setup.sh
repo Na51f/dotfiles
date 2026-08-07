@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Shared packages (all platforms)
-shared="git btop cava fuzzel gtk-3 gtk-4 zshrc"
+shared="git btop cava fuzzel gtk-3 gtk-4 zshrc alacritty noctalia qt5ct qt6ct kdeglobals dconf"
 
 # Platform-specific packages
 case "$(uname -s)" in
