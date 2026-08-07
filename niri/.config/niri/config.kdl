@@ -1,3 +1,5 @@
+spawn-at-startup "noctalia"
+
 input {
     keyboard {
         xkb {
