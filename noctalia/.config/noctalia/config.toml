@@ -1,0 +1,95 @@
+# Noctalia v5 config — migrated from v4 settings.json
+
+[shell]
+ui_scale = 0.8
+telemetry_enabled = false
+settings_show_advanced = true
+avatar_path = "/home/sqibo/.config/noctalia/Pictures/.face"
+time_format = "{:%H:%M}"
+
+    [shell.animation]
+    enabled = true
+    speed = 1.0
+
+    [shell.launcher]
+    categories = true
+    sort_by_usage = true
+    show_icons = true
+
+    [shell.screenshot]
+    copy_to_clipboard = true
+    save_to_file = true
+
+    [shell.shadow]
+    direction = "down"
+
+[bar]
+order = [ "default" ]
+
+    [bar.default]
+    position = "top"
+    background_opacity = 0.85
+    radius = 12
+    padding = 14
+    widget_spacing = 6
+    start = [ "launcher", "clock", "sysmon-cpu", "sysmon-ram", "active-window", "media" ]
+    center = [ "workspaces" ]
+    end = [ "tray", "notifications", "battery", "volume", "brightness", "control-center" ]
+
+[theme]
+mode = "dark"
+source = "builtin"
+builtin = "Noctalia"
+
+[wallpaper]
+directory = "/home/sqibo/Pictures/Wallpapers"
+directory_dark = "/home/sqibo/Pictures/Wallpapers"
+enabled = true
+fill_mode = "crop"
+fill_color = "#000000"
+
+    [wallpaper.automation]
+    enabled = false
+    interval_seconds = 300
+    order = "random"
+
+[nightlight]
+enabled = false
+temperature_day = 6500
+temperature_night = 1000
+
+[idle]
+pre_action_fade_seconds = 5.0
+
+    [idle.behavior.lock]
+    action = "lock"
+    enabled = false
+    timeout = 660.0
+
+    [idle.behavior.screen-off]
+    action = "screen_off"
+    enabled = false
+    timeout = 600.0
+
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    enabled = false
+    timeout = 1800.0
+
+[notification]
+position = "top_right"
+background_opacity = 1.0
+
+[osd]
+position = "top_right"
+
+[lockscreen]
+enabled = true
+blur_intensity = 0.0
+
+[system.monitor]
+enabled = true
+cpu_poll_seconds = 2.0
+memory_poll_seconds = 2.0
+disk_poll_seconds = 10.0
+network_poll_seconds = 3.0
