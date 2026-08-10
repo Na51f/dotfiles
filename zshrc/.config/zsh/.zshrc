@@ -2,6 +2,11 @@
 setopt HIST_SAVE_NO_DUPS        # No duplicates in zsh history
 setopt prompt_subst              # Reevaluate prompt string each time
 
+# Auto-attach to tmux on terminal launch
+if [ -z "$TMUX" ]; then
+  exec tmux new-session -A -s main
+fi
+
 # Completions
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 autoload bashcompinit && bashcompinit
@@ -24,11 +29,13 @@ source $ZDOTDIR/functions
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # kubectl completions
-source <(kubectl completion zsh)
-complete -C '/usr/local/bin/aws_completer' aws
+command -v kubectl &>/dev/null && source <(kubectl completion zsh)
+[ -f /usr/local/bin/aws_completer ] && complete -C '/usr/local/bin/aws_completer' aws
 
 # ZSH autosuggestions
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+if command -v brew &>/dev/null; then
+  source "$(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+fi
 bindkey '^w' autosuggest-execute
 bindkey '^e' autosuggest-accept
 bindkey '^u' autosuggest-toggle
@@ -61,7 +68,7 @@ eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
 
 # Direnv
-eval "$(direnv hook zsh)"
+command -v direnv &>/dev/null && eval "$(direnv hook zsh)"
 
 # Start
 uwufetch -wr  # display and reads cached info add -i to use images
@@ -70,7 +77,7 @@ uwufetch -wr  # display and reads cached info add -i to use images
 PROMPT='%f%K{cyan}%F{black} %~ %f%k%F{cyan}%f '
 RPROMPT=' %F{blue}%K{blue}%F{black} %n@%m %f%k%F{blue}'
 
-. "$HOME/.local/share/../bin/env"
+[ -f "$HOME/.local/share/../bin/env" ] && . "$HOME/.local/share/../bin/env"
 
 # Turso
 export PATH="$PATH:/Users/sqibo/.turso"
